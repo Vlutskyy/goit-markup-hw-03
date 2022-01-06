@@ -90,6 +90,8 @@ img {
 }
 .header-container {
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
   display: flex;
 }
 .current {
@@ -255,7 +257,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-first-color);
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-text {
@@ -285,6 +286,7 @@ img {
   color: var(--text-third-color);
   display: inline-block;
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 .logo-white {
