@@ -53,6 +53,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  outline: 2px solid tomato;
 }
 
 /* -----------Header------------------ */
@@ -79,15 +80,16 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-first-color);
+}
+.header-item:not(:last-child) {
   margin-right: 50px;
 }
+
 .header-list {
   display: flex;
 }
 .header-container {
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
   display: flex;
 }
 .current {
