@@ -399,7 +399,6 @@ img {
 }
 .galery-item {
   background: #ffffff;
-  border: 1px solid #eeeeee;
   width: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
