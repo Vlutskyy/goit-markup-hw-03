@@ -129,6 +129,7 @@ img {
 .header-tel:focus {
   color: var(--text-third-color);
 }
+/* ===========Герой============== */
 
 .block {
   text-align: center;
